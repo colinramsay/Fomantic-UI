@@ -83,6 +83,7 @@ module.exports = function (callback) {
   /*-----------------
       Update SUI
   -----------------*/
+   console.log('Current working dir:', process.cwd());
 console.log('Did semantic.json exist?', currentConfig);
 
 // run update scripts if semantic.json exists
