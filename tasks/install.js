@@ -83,6 +83,7 @@ module.exports = function (callback) {
   /*-----------------
       Update SUI
   -----------------*/
+console.log('Did semantic.json exist?', currentConfig);
 
 // run update scripts if semantic.json exists
   if (currentConfig && manager.name === 'NPM') {
